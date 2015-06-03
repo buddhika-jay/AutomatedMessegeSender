@@ -29,7 +29,7 @@ public class ScheduledMesseges extends Activity{
     }
 
     private void displayListView(){
-        //Array List of Days
+        //Array List of Days//
         ArrayList<Day> days = new ArrayList<Day>();
         days.add(new Day("Monday", 0,false));
         days.add(new Day("Tuesday", 1, false));
