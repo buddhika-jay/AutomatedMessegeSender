@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Single Messege"
+            android:id="@+id/buttonSingle"
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weekly Schedule"
+            android:id="@+id/buttonSchedule"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="189dp"
+            android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"/>
+</RelativeLayout>
